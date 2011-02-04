@@ -9,28 +9,28 @@ Example Usage:
 
 javascript:
 
-  $(document).ready(function(){
-    $('.fancyRadio').dgStyle();
-  });
+    $(document).ready(function(){
+      $('.fancyRadio').dgStyle();
+    });
 
 html:
 
-  <div class="fancyRadio">
-    <input type="radio" value="1" name="category" />
-  </div>
+    <div class="fancyRadio">
+      <input type="radio" value="1" name="category" />
+    </div>
 
 css:
 
-  .fancyRadio {
-    height: 16px;
-  	width: 16px;
-  	margin: 0 0 3px;
-  	background-repeat:no-repeat;
-  	cursor: default;
-  	display: block;
-  	float: left;
-  }
+    .fancyRadio {
+      height: 16px;
+    	width: 16px;
+    	margin: 0 0 3px;
+    	background-repeat:no-repeat;
+    	cursor: default;
+    	display: block;
+    	float: left;
+    }
 
-  .fancyRadio.checked {
-    background:url("checked-ico.png") !important;
-  }
+    .fancyRadio.checked {
+      background:url("checked-ico.png") !important;
+    }
