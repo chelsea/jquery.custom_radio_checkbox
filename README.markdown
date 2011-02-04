@@ -8,21 +8,19 @@ Originally this plugin depended on using CSS sprites, it has been modified to to
 Example Usage:
 
 javascript:
-`
+
   $(document).ready(function(){
     $('.fancyRadio').dgStyle();
-  })
-`
+  });
 
 html:
-`
+
   <div class="fancyRadio">
     <input type="radio" value="1" name="category" />
   </div>
-`
 
 css:
-`
+
   .fancyRadio {
     height: 16px;
   	width: 16px;
@@ -36,7 +34,3 @@ css:
   .fancyRadio.checked {
     background:url("checked-ico.png") !important;
   }
-`
-  
-
-`
